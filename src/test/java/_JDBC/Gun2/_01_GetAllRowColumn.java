@@ -135,7 +135,7 @@ public class _01_GetAllRowColumn extends JDBCParent {
         return tablo;
     }
 
-    // TODO (Challenge) : DB den Customer tablosunu okuyarak , yeni bir EXCELE yazdırınız.
+
 
 
 

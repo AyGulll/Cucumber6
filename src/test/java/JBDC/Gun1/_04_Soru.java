@@ -1,13 +1,15 @@
-package _JDBC.Gun1;
+package JBDC.Gun1;
 
-import _JDBC.JDBCParent;
+import JBDC.Gun2.JDBCParent;
 import org.testng.annotations.Test;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class _04_Soru extends JDBCParent {
 
-    // city tablosundaki tüm satırlardaki şehir isimlerini next ile yazdırınız
+
+public class _04_Soru extends JDBCParent {
+    //city tablosundaki tum satirlardaki sehir isimlerini next ile yazdiriniz
 
     @Test
     public void test1() throws SQLException {
@@ -15,8 +17,5 @@ public class _04_Soru extends JDBCParent {
 
         while (rs.next())
             System.out.println(rs.getString("city"));
-
     }
-
-
 }
